@@ -1,0 +1,5 @@
+- name: Really simple playbook
+  hosts: localhost
+  become: false
+  tasks:
+    - ping:
